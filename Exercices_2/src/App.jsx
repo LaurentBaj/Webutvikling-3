@@ -1,21 +1,17 @@
 import './App.css';
 import React from "react"
 
-import {CoffeeComponent} from "./components/CoffeeComponent";
 import {Wallet} from "./components/Wallet";
+import {CoffeeList} from "./components/coffee/CoffeeList";
 
 
 
 const App = () => {
 
     return (
-
         <div>
             <Wallet />
-            <CoffeeComponent name={"Blue Java"} roast={"Lightly"} class={".coffeeComponent"} />
-            <CoffeeComponent name={"Geisha"} roast={"Roasted"} class={".coffeeComponent"}/>
-            <CoffeeComponent name={"Tropical"} roast={"Strongly"} class={".coffeeComponent"} />
-
+            <CoffeeList />
         </div>
     )
 }
