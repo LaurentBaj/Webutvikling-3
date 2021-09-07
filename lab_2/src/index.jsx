@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Counter} from "./components/Counter";
+import {Task1} from "./components/Task1";
 import {Task2} from "./components/Task2";
+import {Task3} from "./components/task3";
 
 
 function App() {
     return <>
-        <Counter />
+        <Task1 />
         <Task2 />
+        <Task3 />
     </>
 }
 
