@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 
 
-
 export function Task7() {
     const [country, setCountry] = useState("")
     const [capital, setCapital] = useState("")

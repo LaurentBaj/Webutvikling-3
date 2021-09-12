@@ -5,7 +5,7 @@ export function Task5() {
     let [movieName, setMovieName] = useState()
     let [category, setCategory] = useState()
 
-    let [movie, setMovie] = useState({}) // 'Singleton'
+    let [movie, setMovie] = useState({})
 
     function action() {
         if (movieName && category) {

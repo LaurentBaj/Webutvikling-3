@@ -13,7 +13,6 @@ export function Task6() {
     }
 
     function changeCategory(event) {
-
         setCategory(event.target.value)
         setMovie({...movie, category: category})
     }
