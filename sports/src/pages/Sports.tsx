@@ -1,9 +1,11 @@
 import {FC} from "react";
+import SportList from "../components/sports/SportList";
 
 const Sports:FC = () => {
     return (
         <section>
-            <h3>Sports</h3>
+            <h3>Sport</h3>
+            <SportList />
         </section>
     )
 }

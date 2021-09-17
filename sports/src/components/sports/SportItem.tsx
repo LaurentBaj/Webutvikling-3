@@ -6,7 +6,7 @@ const SportItem: FC<ISport> = ({name, image}) => {
         <>
             <article>
                 <h3>{name}</h3>
-                <img src={require(`../../assets/images/${image}`).default} alt=""/>
+                <img src={require(`../../assets/sports-images/${image}`).default} alt=""/>
                 <p></p>
             </article>
         </>
