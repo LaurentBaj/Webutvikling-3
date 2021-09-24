@@ -26,11 +26,9 @@ const SportList: FC = () => {
 
     return (
         <>
-            <Container>
-                <Row>
-                    { createSportList() }
-                </Row>
-            </Container>
+            <Row>
+                { createSportList() }
+            </Row>
         </>
     )
 }
