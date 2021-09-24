@@ -10,11 +10,11 @@ export const MovieProvider:FC = ({children}) => {
         {title: "Dune"},
         {title: "Batman"},
         {title: "Boss Baby"},
-        {title: "Free Guy"}
+        {title: "Fifty Shades Darker"}
     ])
 
-    const saveMovie = () => {
-
+    const saveMovie = (newMovie: IMovie) => {
+        setMovies([...movies, newMovie]) // useState ønsker ikke mutasjoner
     }
 
     return (
