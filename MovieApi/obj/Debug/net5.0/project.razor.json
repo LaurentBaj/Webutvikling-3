@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/laurent/Work/Webutvikling-3/kodet-forelesning7-intro-webapi-DigitalHeaven/DigitalHeaven.csproj",
+  "FilePath": "/home/laurent/Work/Webutvikling-3/MovieApi/MovieApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "DigitalHeaven",
+  "RootNamespace": "MovieApi",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
