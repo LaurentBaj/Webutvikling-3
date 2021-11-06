@@ -27,6 +27,5 @@ namespace ChocolateApi.Services
             _chocolates.InsertOne( newChocolate );
             return newChocolate;
         }
-
     }
 }

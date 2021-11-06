@@ -71,6 +71,13 @@ namespace MonsterApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MonsterApi v1"));
             }
 
+            // Bruk index.html i root 
+            DefaultFilesOptions newOptions = new DefaultFilesOptions();
+            newOptions.DefaultFileNames.Append("index.html");
+            app.UseDefaultFiles(newOptions);
+
+            app.UseStaticFiles(); 
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

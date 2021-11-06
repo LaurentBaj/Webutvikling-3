@@ -11,6 +11,15 @@ export const MonsterProvider: FC = ({children}) => {
         { id: "test", name: "Testmonster", image: "cute-witch.png" }
     ]);
 
+    useEffect( () => {
+        getMonsters()
+    }, [])
+
+    const getMonsters = async () => {
+        const _monsters = await MonsterService.getAll(); 
+        setMonsters(_monsters)
+    }
+
     return (
         <>
             <MonsterContext.Provider value={{monsters}}>

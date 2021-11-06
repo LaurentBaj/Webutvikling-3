@@ -22,7 +22,6 @@
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/staticwebassets/MonsterApi.StaticWebAssets.xml
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/scopedcss/bundle/MonsterApi.styles.css
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/MonsterApi.RazorTargetAssemblyInfo.cache
-/home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/MonsterApi.csproj.CopyComplete
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/MonsterApi.dll
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/ref/MonsterApi.dll
 /home/laurent/Work/Webutvikling-3/Lecture10/MonsterApi/obj/Debug/net5.0/MonsterApi.pdb
